@@ -1,0 +1,749 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Salsa&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* MENU */
+
+
+
+.content {
+    width: 100vw;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0a5cb8;
+    position: fixed;
+    padding-left: 30rem;
+}
+
+.logo {
+    width: 135px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-top: 0rem;
+    transform: translate(-180%);
+    
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.content .list-menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover{
+    background-color: #ffffff;
+    border-bottom: 4px solid #0a5cb8;  
+    color: #0a5cb8;
+}
+
+/* Primeira Seção */
+
+.first-section{
+    height: 40vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section .div-imghome img{
+    width: 25vw;
+    display: flex;
+    margin-left: 65vw;
+    margin-top: -6vw;
+}
+
+.first-section h1{
+    width: 60vw;
+    height: 3vw;
+    color: #000000;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', italic;
+}
+.first-section h1 p{
+    color: #000000;
+    font-size: 2rem;
+    text-transform: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    width: 50vw;
+    margin-top: 1vw;
+
+}
+
+.destaque {
+    color: #0a5cb8; /* Substitua #ff0000 pelo código de cor desejado */
+    font-weight: bold; /* ou qualquer outra propriedade de estilo desejada */
+}
+
+
+.first-section h3{
+    
+    color: #0a5cb8;
+    height: 4vw;
+    width: 40vw;
+    font-size: 3rem;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin-top: 12vw;
+}
+
+.btn button {
+    width: 30vw;
+    height: 5vw;
+    text-transform: uppercase;
+    background-color: #0f8f0b;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family:'Poppins';
+    font-weight: 500;
+    transition: all 400ms ease-in;
+    margin-top: -4rem;
+    margin-right: 66rem;
+}
+
+.btn button:hover {
+    border: 1px solid #0a5cb8;
+    background-color: transparent;
+    color: #0a5cb8;
+}
+
+/* Cardápio */
+
+.servicos {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a5cb8;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servicos h2 {
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.itens-servicos {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.itens-servicos .info {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.itens-servicos .info h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.itens-servicos .info h4 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem;
+}
+
+.itens-servicos .info h4 span{
+    font-size: 1.6rem;
+    color:#585858;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+}
+
+.itens-servicos div {
+    background-color: #0a5cb8;
+    box-shadow: 0px 0px 4px 1px ;
+}
+
+.itens-servicos img {
+    width: 100%;
+    height: 200px;
+}
+
+.itens-servicos .info .pedir {
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #ffc506;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: all 200ms ease-in;
+}
+
+.itens-servicos .info .pedir:hover {
+    background-color: #5e5252;
+    color: rgb(255, 255, 255);
+}
+
+/* Sobre nós */
+
+.sobre-nos {
+    height: 50vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentsobre {
+    width: 100vw;
+    height: 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20vw;
+}
+
+
+
+.sobre-nos img {
+    width: 30vw;
+    display: flex;
+    margin-top:8vw;
+    margin-left: 3vw;
+}
+
+.contentsobre h2 {
+    margin-top: 30vw;
+    margin-left: 74vw;
+    margin-bottom: 1rem;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+/*<a href="https://br.freepik.com/vetores-gratis/as-pessoas-trabalham-no-escritorio-juntos_30469808.htm#query=equipe%20png&position=44&from_view=keyword&track=ais&uuid=973e9f04-ce71-4fcf-aab8-243cdaea0b2a">Imagem de upklyak</a> no Freepik*/
+
+.contentsobre p {
+    margin-left: 27vw;
+    width: 60vw;
+    text-align:justify;
+    font-size: 2.0rem;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+/*Section Feedback*/
+
+.feedback {
+    margin-top: -20vw;
+    width: 100vw;
+    height: 60vw;
+}
+
+/*Painel retngulo*/
+.info-container {
+    display: flex;
+    margin-top: 7vw;
+    margin-left: 18vw;
+}
+
+.info-card {
+    margin: 0 30px;
+    width: 300px;
+    height: 150px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+    background-color: #0a5cb8;
+    color: white;
+}
+
+.rectangle {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #000000;
+    transition: transform 0.3s ease-in-out;
+}
+.rectangle:hover {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.number {
+    font-size: 24px; /* Mudando o tamanho dos números */
+    font-weight: bold;
+}
+
+.label {
+    font-size: 14px;
+}
+/*Aba avaliacao*/
+.indicacoes{
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 18vw;
+}
+.avaliacoes {
+    width: 30vw;
+    height: 10vw;
+    margin-top: 10vw;
+    margin-left: 16.5vw;
+    margin-bottom: 1rem;
+}
+.avaliacoes h2{
+    font-family: 'Poppins';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+.avaliacoes p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2rem;
+}
+.avaliacao-painel {
+    display: flex;
+    margin-top: -30vw;
+    margin-left: 70vw;
+}
+.cliente1 {
+    margin-left: -60vw;
+    margin-top: 30vw;
+    margin-right: 2vw;
+    width: 25vw;
+    height: 17vw;
+    background-color: #ececec;
+    border-radius: 2rem;
+}
+.cliente1 h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 2vw;
+    margin-left: 5.5vw;
+}
+
+.cliente1 .estrelas5 {
+    width: 8vw;
+    display:flex;
+    margin-top: -3vw;
+    margin-left: 16vw;
+}
+.cliente1 .perfil1 {
+    width: 5vw;
+    display:flex;
+    margin-top: -13vw;
+    margin-left: 0.6vw;
+}
+
+.cliente1 h4 {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-top: 1vw;
+    text-align: justify;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.cliente2 {
+    margin-right: 2vw;
+    margin-top: 30vw;
+    width: 25vw;
+    height: 17vw;
+    background-color: #ececec;
+    border-radius: 2rem;
+}
+.cliente2 h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 2vw;
+    margin-left: 5.5vw;
+}
+
+.cliente2 .estrelas52 {
+    width: 8vw;
+    display:flex;
+    margin-top: -3vw;
+    margin-left: 16vw;
+}
+.cliente2 .perfil2 {
+    width: 5vw;
+    display:flex;
+    margin-top: -15.4vw;
+    margin-left: 0.6vw;
+}
+
+.cliente2 h4 {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-top: 1vw;
+    text-align: justify;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.cliente3 {
+    margin-top: 30vw;
+    width: 25vw;
+    height: 17vw;
+    background-color: #ececec;
+    border-radius: 2rem;
+}
+.cliente3 h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 2vw;
+    margin-left: 5.5vw;
+}
+
+.cliente3 .estrelas53 {
+    width: 8vw;
+    display:flex;
+    margin-top: -3vw;
+    margin-left: 16vw;
+}
+.cliente3 .perfil3 {
+    width: 5vw;
+    display:flex;
+    margin-top: -11.8vw;
+    margin-left: 0.6vw;
+}
+
+.cliente3 h4 {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-top: 1vw;
+    text-align: justify;
+    font-size: 2rem;
+    font-weight: 300;
+}
+/*Orcamento*/
+
+.frasevenda {
+    width: 100vw;
+    height: 40vw;
+    background-color: #ececec;
+}
+.frasevenda h2{
+    margin-top: 6vw;
+    width: 50vw;
+    height: 30w;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000;
+}
+.orcamento button{
+    background-color: #0f8f0b;
+    margin-top: 15vw;
+    margin-left: -20vw;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 3vw;
+}
+.contatos {
+    width: 100%;
+    background-color: #1f1e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.contatos h3 {
+   font-size: 5rem;
+   margin-bottom: 3rem;
+   font-family: 'Indie Flower', cursive;
+}
+
+.contatos-secao {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.contatos-secao i{
+    margin-right: 1rem;
+
+}
+
+.contatos-secao div{
+    cursor: pointer;
+}
+
+.contatos-secao div:hover{
+    color: #ffc506;
+}
+
+
+footer {
+    height: 25px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .main {
+        display: block;
+        
+    }
+
+    .sobre-nos img {
+        width: 600px;
+        margin-left: -2px;
+    }
+
+    
+}
+
+@media (max-width: 980px) {
+   
+    html {
+        font-size: 50%;
+    }
+    
+}
+
+@media (max-width: 870px) {
+    .content {
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    .content .list-menu{
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        margin: 6px auto;
+
+        transition-duration: 0.5s ;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        
+
+    }
+
+    .content.on {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #1f1e1f;
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content.on .logo {
+        display: none;
+    }
+
+    .content.on .menu-toggle {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+
+    .content.on .list-menu {
+        display: block;
+        
+    }
+
+    .content.on .list-menu li {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .content.on .list-menu li a {
+        font-size: 4rem;
+        display: block;
+    }
+
+
+    .content.on .menu-toggle .one {
+        transform: rotate(45deg) translate(8px, -7px);
+    }
+    .content.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .content.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(20px, -6px);
+    }
+
+    .contatos-secao {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        
+    }
+
+    .contatos-secao div {
+        margin: 2rem;
+        
+    }
+
+}
+
+
+@media (max-width: 720px) {
+    .conteudo-principal h1 {
+        width: 350px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 645px) {
+    .sobre-nos img {
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .contentsobre p {
+        text-align: center;
+        width: 400px;
+     }
+
+     .btn {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .contatos-secao {
+       width: 200px;
+        
+    }
+    .conteudo-principal h2 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .btn {
+        width: 150px;
+    }
+}
+
+@media (max-width: 399px) {
+
+    .conteudo-principal h1 {
+       font-size: 3rem;
+    }
+    .conteudo-principal h2 {
+       font-size: 2rem;
+    }
+
+
+    .sobre-nos img {
+        width: 300px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .contentsobre p {
+        text-align: center;
+        width: 200px;
+     }
+
+    
+}
+
+
+
