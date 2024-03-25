@@ -8,7 +8,7 @@
 </div>
 
 
-### Este projeto é a criação de um site para uma Pizzaria ficticia.
+### Este projeto foi o primeiro site da minha empresa, aonde fiz minhas primeiras aplicações de Front-end
 
 <p> 
     <img width="1000" height="600" src="src/gif7.gif" >
@@ -26,14 +26,14 @@
 </p>
 
 
-### Este projeto é responsivo, o javascript auxiliou para a criação de um menu hamburguer para telas menores.
+### Este projeto é quase todo responsivo, o javascript auxiliou para a criação de um menu hamburguer para telas menores.
 
 <p> 
     <img width="1000" height="600" src="src/gif9.gif" >
 </p>
 
 
-### e o display grid para o possicionamento do cardápio
+### e o display grid para o possicionamento dos cards
 
 <p> 
     <img width="1000" height="600" src="src/gif10.gif" >
